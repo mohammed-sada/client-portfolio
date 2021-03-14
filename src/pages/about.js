@@ -23,8 +23,8 @@ const About = ({
       <SEO title="About Me" description="about webdev" />
       <section className="about-page">
         <div className="section-center about-center">
-            <Image fluid={image.fluid} className="about-img" />
-        
+          <Image fluid={image.fluid} className="about-img" />
+
           <article className="about-text">
             <Title title={title} />
             <p>{info}</p>

@@ -58,7 +58,7 @@ const Jobs = () => {
           })}
         </article>
       </div>
-      <Link to="/about" className="btn center-btn light-btn">
+      <Link to="/resume" className="btn center-btn light-btn">
         more info
       </Link>
     </section>

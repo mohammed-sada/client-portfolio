@@ -12,11 +12,6 @@ const data = [
     url: "/about/",
   },
   {
-    id: 3,
-    text: "resume",
-    url: "/resume/",
-  },
-  {
     id: 4,
     text: "projects",
     url: "/projects/",
@@ -25,6 +20,11 @@ const data = [
     id: 5,
     text: "blog",
     url: "/blog/",
+  },
+  {
+    id: 3,
+    text: "resume",
+    url: "/resume/",
   },
   {
     id: 6,

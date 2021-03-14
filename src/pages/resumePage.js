@@ -8,7 +8,7 @@ const resumePage = () => {
   return (
     <Layout>
     
-      <div className="resume">
+      <div className="resumePage">
       <center>
         <SEO title="Resume" description="webdev resume" />
         <small className="buttons">

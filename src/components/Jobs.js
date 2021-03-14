@@ -6,39 +6,35 @@ import { Link } from "gatsby"
 
 const query = graphql`
   {
-    allStrapiJobs(sort: { fields: strapiId, order: DESC }) {
+    allContentfulJobs(sort: { fields: id, order: DESC }) {
       nodes {
-        strapiId
+        id
         company
         date
         position
-        desc {
-          id
-          name
-        }
+        desc
       }
     }
   }
 `
-
 const Jobs = () => {
   const data = useStaticQuery(query)
   const {
-    allStrapiJobs: { nodes: jobs },
+    allContentfulJobs: { nodes: jobs },
   } = data
   const [value, setValue] = React.useState(0)
   const { company, position, date, desc } = jobs[value]
 
   return (
     <section className="section jobs">
-      <Title title="expierence" />
+      <Title title="experience" color={"white-unrderline"} />
       <div className="jobs-center">
         {/* btn container */}
         <div className="btn-container">
           {jobs.map((item, index) => {
             return (
               <button
-                key={item.strapiId}
+                key={item.id}
                 onClick={() => setValue(index)}
                 className={`job-btn ${index === value && "active-btn"}`}
               >
@@ -52,17 +48,17 @@ const Jobs = () => {
           <h3>{position}</h3>
           <h4>{company}</h4>
           <p className="job-date">{date}</p>
-          {desc.map(item => {
+          {desc.map((item, idx) => {
             return (
-              <div key={item.id} className="job-desc">
-                <FaAngleDoubleRight className="job-icon"></FaAngleDoubleRight>
-                <p>{item.name}</p>
+              <div key={idx} className="job-desc">
+                <FaAngleDoubleRight className="job-icon" />
+                <p>{item}</p>
               </div>
             )
           })}
         </article>
       </div>
-      <Link to="/about" className="btn center-btn">
+      <Link to="/about" className="btn center-btn light-btn">
         more info
       </Link>
     </section>

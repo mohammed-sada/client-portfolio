@@ -4,25 +4,33 @@ import { graphql } from "gatsby"
 import Title from "../components/Title"
 import Image from "gatsby-image"
 import SEO from "../components/SEO"
+import resume from "../assets/res.pdf"
+
 const About = ({
   data: {
     about: { nodes },
   },
 }) => {
-  const { info, stack, title, image } = nodes[0]
+  const {
+    info: { info },
+    stack,
+    title,
+    image,
+  } = nodes[0]
 
   return (
     <Layout>
       <SEO title="About Me" description="about webdev" />
       <section className="about-page">
         <div className="section-center about-center">
-          <Image fluid={image.childImageSharp.fluid} className="about-img" />
+            <Image fluid={image.fluid} className="about-img" />
+        
           <article className="about-text">
             <Title title={title} />
             <p>{info}</p>
             <div className="about-stack">
-              {stack.map(item => {
-                return <span key={item.id}>{item.title}</span>
+              {stack.map((item, idx) => {
+                return <span key={idx}>{item}</span>
               })}
             </div>
           </article>
@@ -34,19 +42,16 @@ const About = ({
 
 export const query = graphql`
   {
-    about: allStrapiAbout {
+    about: allContentfulAbout {
       nodes {
-        stack {
-          id
-          title
-        }
+        stack
         title
-        info
+        info {
+          info
+        }
         image {
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
-            }
+          fluid {
+            ...GatsbyContentfulFluid
           }
         }
       }

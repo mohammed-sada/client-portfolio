@@ -3,63 +3,61 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Hero from "../components/Hero"
 import Services from "../components/Services"
-import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
 import Blogs from "../components/Blogs"
+import Jobs from "../components/Jobs"
 import SEO from "../components/SEO"
 export default ({ data }) => {
   const {
-    allStrapiProjects: { nodes: projects },
-    allStrapiBlogs: { nodes: blogs },
+    allContentfulProject: { nodes: projects },
+    allContentfulBlog: { nodes: blogs },
   } = data
 
   return (
-    <Layout>
+    <Layout style="navbar-home">
       <SEO title="Home" description="this is our home page" />
       <Hero />
       <Services />
-      <Jobs />
+      <Jobs/>
       <Projects projects={projects} title="featured projects" showLink />
       <Blogs blogs={blogs} title="latest articles" showLink />
     </Layout>
   )
 }
+
 export const query = graphql`
   {
-    allStrapiProjects(filter: { featured: { eq: true } }) {
+    allContentfulProject(filter: { feature: { eq: true } }) {
       nodes {
+        name
+        description {
+          description
+        }
         github
-        id
-        description
-        title
         url
+        stack
         image {
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
-            }
+          fluid {
+            ...GatsbyContentfulFluid
           }
         }
-        stack {
-          id
-          title
-        }
+        id
       }
     }
-    allStrapiBlogs(sort: { fields: date, order: DESC }, limit: 3) {
+
+    allContentfulBlog(limit: 3) {
       nodes {
-        slug
-        content
-        desc
-        date(formatString: "MMMM Do, YYYY")
-        id
         title
+        description {
+          description
+        }
+        id
+        date(formatString: "MMM Do, YYYY")
         category
+        slug
         image {
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
-            }
+          fluid {
+            ...GatsbyContentfulFluid
           }
         }
       }

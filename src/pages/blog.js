@@ -6,7 +6,7 @@ import SEO from "../components/SEO"
 
 const Blog = ({
   data: {
-    allStrapiBlogs: { nodes: blogs },
+    allContentfulBlog: { nodes: blogs },
   },
 }) => {
   return (
@@ -21,19 +21,19 @@ const Blog = ({
 
 export const query = graphql`
   {
-    allStrapiBlogs {
+    allContentfulBlog {
       nodes {
-        slug
-        desc
-        date(formatString: "MMMM Do, YYYY")
-        id
         title
+        description {
+          description
+        }
+        id
+        date(formatString: "MMM Do, YYYY")
         category
+        slug
         image {
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
-            }
+          fluid {
+            ...GatsbyContentfulFluid
           }
         }
       }

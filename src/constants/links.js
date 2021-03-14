@@ -24,7 +24,7 @@ const data = [
   {
     id: 3,
     text: "resume",
-    url: "/resume/",
+    url: "/resumePage/",
   },
   {
     id: 6,

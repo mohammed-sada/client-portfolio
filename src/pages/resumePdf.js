@@ -9,7 +9,7 @@ const resumePdf = () => {
         src={resumeFile}
         type="application/pdf"
         width="100%"
-        className="/resume"
+        className="resume"
       />
     </Layout>
   )

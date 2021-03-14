@@ -1281,3 +1281,7 @@ Blog Template
     height: 15rem;
     margin: 3rem 0;
 }
+
+.resume {
+    height: 100vh;
+}

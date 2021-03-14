@@ -1,7 +1,7 @@
 import React from "react"
+
 import { GiProcessor } from "react-icons/gi"
 import { AiOutlineCloud ,AiOutlineRadarChart} from "react-icons/ai"
-
 import { FcStatistics } from "react-icons/fc"
 import { GrDeploy } from "react-icons/gr"
 import { FaPython } from "react-icons/fa"

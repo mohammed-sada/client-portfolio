@@ -1035,15 +1035,15 @@ Footer
     color: var(--clr-red-dark);
 }
 
-.footer-links {
+.footer-links,.resume-links {
     margin: 0 auto 1rem auto;
 }
 
-.footer .social-link {
+.footer .social-link ,.resume-links{
     color: var(--clr-white);
 }
 
-.footer .social-link:hover {
+.footer .social-link:hover,.resume-links:hover {
     color: var(--clr-primary-7);
 }
 
@@ -1262,6 +1262,7 @@ Blog Template
     text-transform: uppercase;
 }
 
+
 .blog-template blockquote {
     background: var(--clr-primary-9);
     border-radius: var(--radius);
@@ -1288,3 +1289,4 @@ Blog Template
 .resume {
     height: 100vh;
 }
+

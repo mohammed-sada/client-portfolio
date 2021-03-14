@@ -4,6 +4,11 @@ import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import '../templates/resume.css'
 
+import {
+  FaLinkedin,
+  FaGithub
+} from "react-icons/fa"
+
 const resumePage = () => {
   return (
     <Layout>
@@ -11,17 +16,14 @@ const resumePage = () => {
       <div className="resumePage">
       <center>
         <SEO title="Resume" description="webdev resume" />
-        <small className="buttons">
-          <a className="btn" href="https://tdhopper.com/">yadavabhi.com</a> 
-          <a className="btn" href="https://tdhopper.com/tdhopper">@yadavabhi</a> 
-          <a className="btn" href="https://www.linkedin.com/in/tdhopper/">LinkedIn</a> 
-          <a className="btn" href="https://www.github.com/tdhopper/">Github</a>
+        <small className="buttons resume-links">
+          <a className="social-link" href="https://tdhopper.com/"><FaLinkedin/></a> 
+          <a className="social-link" href="https://tdhopper.com/tdhopper"><FaGithub/></a> 
+        
         </small>
     <br/>
       
-          <Link to="/resumePdf" className="btn" href="https://resume.tdhopper.com/tim-hopper-resume.pdf">
-            printable version
-          </Link>
+         
         
       </center>
       <h1 id="tim-hopper">Abhishek Yadav</h1>
@@ -30,7 +32,7 @@ const resumePage = () => {
         <p>💻 Experienced machine learning engineer / Geophysicist</p>
       </blockquote>
       <hr />
-      <h2 className="heading2" id="experience">Experience</h2>
+      <h2  id="experience">Experience</h2>
       <h4 id="dtn-remote-data-science-architect-august-2020-present">
         <a href="https://dtn.com/" rel="noreferrer" target="_blank">
           Polarcus
@@ -259,6 +261,9 @@ const resumePage = () => {
           Gurugram, India
         </p>
       </blockquote>
+      <Link to="/resumePdf" href="https://resume.tdhopper.com/tim-hopper-resume.pdf">
+            <button className="btn center-btn" >printable version</button> 
+          </Link>
       </div>
     </Layout>
   )

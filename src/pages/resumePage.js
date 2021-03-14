@@ -17,11 +17,7 @@ const resumePage = () => {
           <a className="btn" href="https://www.linkedin.com/in/tdhopper/">LinkedIn</a> 
           <a className="btn" href="https://www.github.com/tdhopper/">Github</a>
         </small>
-      </center>
-      <center>
-        <h10 id="space"> . </h10>
-      </center>
-      <center>
+    <br/>
       
           <Link to="/resumePdf" className="btn" href="https://resume.tdhopper.com/tim-hopper-resume.pdf">
             printable version

@@ -62,6 +62,13 @@ table {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+@media screen and(max-width:768px){
+    .buttons{
+
+    }
+
 }
 .buttons a{
     margin-right: 1rem;

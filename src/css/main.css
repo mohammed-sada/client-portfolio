@@ -436,6 +436,9 @@ Sidebar Animation
 .sidebar-links li:nth-of-type(5) {
     animation-delay: 1.25s;
 }
+.sidebar-links li:nth-of-type(6) {
+    animation-delay: 1.5s;
+}
 
 @keyframes slideRight {
     0% {
@@ -841,7 +844,7 @@ Projects
 .project-links a:nth-child(2) {
     padding: 0.2rem;
     font-size: 0.8rem;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.7rem;
 }
 
 .project-stack {

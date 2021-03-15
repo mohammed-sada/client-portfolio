@@ -12,11 +12,11 @@ const resumePage = () => {
       <div className="resumePage">
         <center>
           <SEO title="Resume" description="webdev resume" />
-          <Link to="/resumePdf">
-            <button className="btn center-btn print-btn">
+          <button className="btn center-btn print-btn-above">
+            <Link className="white-color" to="/resumePdf">
               printable version
-            </button>
-          </Link>
+            </Link>
+          </button>
           <small className="buttons resume-links">
             <a className="social-link" href="">
               <FaLinkedin />
@@ -285,9 +285,11 @@ const resumePage = () => {
             Gurugram, India
           </p>
         </blockquote>
-        <Link to="/resumePdf">
-          <button className="btn center-btn">printable version</button>
-        </Link>
+        <button className="btn center-btn print-btn">
+          <Link className="print-btn-below" to="/resumePdf">
+            printable version
+          </Link>
+        </button>
       </div>
     </Layout>
   )

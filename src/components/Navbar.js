@@ -32,7 +32,7 @@ const Navbar = ({ toggleSidebar, style }) => {
         <div className="nav-header">
           <Link to="/">
             {/* <h2 className="logo">&#60;Coder/&#62;</h2> */}
-            <img className="logo-img" src={logo} alt="yadav abhi" />
+            <h2 className="logo">Yadav Abhi</h2>
           </Link>
           <button type="button" className="toggle-btn" onClick={toggleSidebar}>
             <FaAlignRight></FaAlignRight>

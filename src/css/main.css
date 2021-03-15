@@ -277,8 +277,12 @@ Navbar
 
 .logo {
   color: var(--clr-white);
-  margin-top: 10px;
+  margin-top: 15px;
   font-weight: lighter;
+  transition: var(--transition);
+}
+.logo:hover {
+  color: var(--clr-red-dark);
 }
 
 .logo-img {

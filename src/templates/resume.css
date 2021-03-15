@@ -11,11 +11,11 @@
 }
 
 .resumePage ul {
-  margin: 3rem;
+  margin: 1rem 3rem 3rem 3rem;
 }
 @media screen and (max-width: 768px) {
   .resumePage ul {
-    margin: 3rem 0 3rem 0;
+    margin: 0rem 0 3rem 0;
   }
   .resumePage h2 {
     font-size: 18px;
@@ -41,6 +41,7 @@
   /* This is called "sectioncolor" in the ConTeXt stylesheet. */
   color: #2c3e49;
   margin-top: 2rem;
+  font-size: 1.5rem;
 }
 /* There is a bar just before each category */
 .resumePage h2:before {
@@ -78,6 +79,7 @@
 /* Blockquotes */
 .resumePage blockquote {
   text-align: center;
+  margin: 1rem;
 }
 
 /* Links */

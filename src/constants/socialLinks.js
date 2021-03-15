@@ -3,14 +3,14 @@ import {
   FaLinkedin,
   FaDribbbleSquare,
   FaBehanceSquare,
-  FaKaggle,
-  FaGithub
+  FaMedium,
+  FaGithub,
 } from "react-icons/fa"
 
 const data = [
   {
     id: 1,
-    icon: <FaKaggle className="social-icon"></FaKaggle>,
+    icon: <FaMedium className="social-icon"></FaMedium>,
     url: "https://www.twitter.com",
   },
   {

@@ -282,7 +282,8 @@ Navbar
 }
 
 .logo-img {
-  height: 3rem;
+  margin-top: 1rem;
+  width: 8rem;
   border-radius: 4px;
 }
 

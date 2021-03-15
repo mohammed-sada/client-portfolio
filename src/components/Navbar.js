@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import React, { useEffect, useState } from "react"
 import { FaAlignRight } from "react-icons/fa"
 import PageLinks from "../constants/links"
+import logo from "../assets/logos.png"
 
 const Navbar = ({ toggleSidebar, style }) => {
   const [navBackground, setNavBackground] = useState("navTransparent")
@@ -31,7 +32,7 @@ const Navbar = ({ toggleSidebar, style }) => {
         <div className="nav-header">
           <Link to="/">
             {/* <h2 className="logo">&#60;Coder/&#62;</h2> */}
-            <h2 className="logo">logo</h2>
+            <img className="logo-img" src={logo} alt="yadav abhi" />
           </Link>
           <button type="button" className="toggle-btn" onClick={toggleSidebar}>
             <FaAlignRight></FaAlignRight>

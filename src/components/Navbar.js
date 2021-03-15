@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import React, { useEffect, useState } from "react"
 import { FaAlignRight } from "react-icons/fa"
 import PageLinks from "../constants/links"
-import logo from "../assets/logos.png"
+// import logo from "../assets/logos.png"
 
 const Navbar = ({ toggleSidebar, style }) => {
   const [navBackground, setNavBackground] = useState("navTransparent")
@@ -11,7 +11,7 @@ const Navbar = ({ toggleSidebar, style }) => {
   navRef.current = navBackground
   useEffect(() => {
     const handleScroll = () => {
-      const show = window.scrollY > 310
+      const show = window.scrollY > 200
       if (show) {
         setNavBackground("navSolid")
       } else {

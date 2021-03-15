@@ -18,10 +18,10 @@ const resumePage = () => {
             </Link>
           </button>
           <small className="buttons resume-links">
-            <a className="social-link" href="">
+            <a className="social-link" href="www.google.com">
               <FaLinkedin />
             </a>
-            <a className="social-link" href="">
+            <a className="social-link" href="www.google.com">
               <FaGithub />
             </a>
           </small>

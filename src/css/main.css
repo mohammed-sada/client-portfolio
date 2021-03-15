@@ -698,7 +698,7 @@ Jobs
 }
 
 .job-btn:hover {
-  color: var(--clr-primary-6);
+  color: var(--clr-primary-10);
   box-shadow: 0 2px var(--clr-primary-10);
 }
 

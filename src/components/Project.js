@@ -1,7 +1,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Image from "gatsby-image"
-import { FaGithubSquare, FaShareSquare } from "react-icons/fa"
+import {
+  FaGithubSquare,
+  //  FaShareSquare
+} from "react-icons/fa"
+
 const Project = ({
   description: { description },
   name,

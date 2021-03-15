@@ -4,7 +4,6 @@ import { graphql } from "gatsby"
 import Title from "../components/Title"
 import Image from "gatsby-image"
 import SEO from "../components/SEO"
-import resume from "../assets/res.pdf"
 
 const About = ({
   data: {

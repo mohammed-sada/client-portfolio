@@ -12,6 +12,11 @@ const resumePage = () => {
       <div className="resumePage">
         <center>
           <SEO title="Resume" description="webdev resume" />
+          <Link to="/resumePdf">
+            <button className="btn center-btn print-btn">
+              printable version
+            </button>
+          </Link>
           <small className="buttons resume-links">
             <a className="social-link" href="">
               <FaLinkedin />
@@ -20,9 +25,6 @@ const resumePage = () => {
               <FaGithub />
             </a>
           </small>
-          <Link to="/resumePdf">
-            <button className="btn center-btn">printable version</button>
-          </Link>
           <br />
         </center>
         <h1 id="tim-hopper">Abhishek Yadav</h1>

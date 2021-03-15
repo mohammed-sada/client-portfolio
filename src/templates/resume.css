@@ -118,3 +118,9 @@ a {
 .resume-links:hover {
   color: var(--clr-primary-7);
 }
+.print-btn {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 0.4rem;
+  font-size: 0.7rem;
+}

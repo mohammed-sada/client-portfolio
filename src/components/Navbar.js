@@ -24,7 +24,9 @@ const Navbar = ({ toggleSidebar, style }) => {
   }, [])
 
   return (
-    <nav className={`navbar ${style} ${navRef.current}`}>
+    <nav
+      className={`navbar ${style} ${style === "navbar-home" && navRef.current}`}
+    >
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">

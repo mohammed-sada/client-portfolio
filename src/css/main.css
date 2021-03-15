@@ -256,7 +256,7 @@ Navbar
   background: var(--clr-primary-1);
 }
 .navTransparent {
-  background: transparent !important;
+  background: transparent;
   transition: var(--transition);
 }
 .navSolid {

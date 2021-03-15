@@ -33,59 +33,61 @@ const Contact = () => {
     <Layout>
       <SEO title="Contact" />
       <section className="contact-page">
-        <article className="contact-form">
-          <h3>get in touch</h3>
-          <form onSubmit={sendEmail}>
-            <div className="form-group">
-              <input
-                type="text"
-                name="name"
-                placeholder="name"
-                className="form-control"
-              />
-              <input
-                type="email"
-                placeholder="email"
-                name="email"
-                className="form-control"
-              />
-              <textarea
-                name="message"
-                rows="5"
-                placeholder="message"
-                className="form-control"
-              ></textarea>
+        <article className="contact-container">
+          <div className="contact-form">
+            <h3>get in touch</h3>
+            <form onSubmit={sendEmail}>
+              <div className="form-group">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="name"
+                  className="form-control"
+                />
+                <input
+                  type="email"
+                  placeholder="email"
+                  name="email"
+                  className="form-control"
+                />
+                <textarea
+                  name="message"
+                  rows="5"
+                  placeholder="message"
+                  className="form-control"
+                ></textarea>
+              </div>
+              <button type="submit" className="submit-btn btn">
+                submit here
+              </button>
+            </form>
+          </div>
+          <article className="contact-info">
+            <div>
+              <BsFillPersonFill className="contact-icon" />
+              <h3>Abhishek Yadav</h3>
             </div>
-            <button type="submit" className="submit-btn btn">
-              submit here
-            </button>
-          </form>
-        </article>
-        <article className="contact-info">
-          <div>
-            <BsFillPersonFill className="contact-icon" />
-            <h3>Abhishek Yadav</h3>
-          </div>
 
-          <hr />
+            <hr />
 
-          <div>
-            <MdLocationOn className="contact-icon" />
-            <h4>South City 2</h4>
-            <h4>Gurugram Haryana</h4>
-          </div>
+            <div>
+              <MdLocationOn className="contact-icon" />
+              <h4>South City 2</h4>
+              <h4>Gurugram Haryana</h4>
+            </div>
 
-          <hr />
+            <hr />
 
-          <div>
-            <FaPhone className="contact-icon" />
-            <h4>+91 8708995972</h4>
-          </div>
-          <hr />
-          <div>
-            <MdEmail className="contact-icon" />
-            <h4>abhishake88@gmail.com</h4>
-          </div>
+            <div>
+              <FaPhone className="contact-icon" />
+              <h4>+91 8708995972</h4>
+            </div>
+            <hr />
+            <div>
+              <MdEmail className="contact-icon" />
+              <h4>abhishake88@gmail.com</h4>
+            </div>
+          </article>
         </article>
       </section>
     </Layout>

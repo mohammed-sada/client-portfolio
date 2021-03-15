@@ -223,7 +223,7 @@ p {
 
 .social-links {
   margin-top: 2rem;
-  width: 15rem;
+  width: 10rem;
   display: flex;
   justify-content: space-between;
 }
@@ -245,7 +245,7 @@ Navbar
 */
 
 .navbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -255,7 +255,14 @@ Navbar
   z-index: 200;
   background: var(--clr-primary-1);
 }
-
+.navTransparent {
+  background: transparent !important;
+  transition: var(--transition);
+}
+.navSolid {
+  background: var(--clr-primary-1) !important;
+  transition: var(--transition);
+}
 .nav-center {
   width: 90vw;
   max-width: 1170px;
@@ -1151,25 +1158,22 @@ Contact Page
 .contact-form,
 .contact-info {
   background: var(--clr-white);
-  border-radius: var(--radius);
+  /* border-radius: var(--radius); */
   text-align: center;
-  box-shadow: var(--light-shadow);
+  /* box-shadow: var(--light-shadow); */
   transition: var(--transition);
   width: 90vw;
   max-width: 35rem;
 }
-.contact-info {
-  background-color: var(--clr-primary-1);
-}
+
 .contact-icon {
-  color: white;
-  margin-top: 1rem;
+  color: var(--clr-primary-1);
+  margin-top: 0.6rem;
 }
 
 .contact-info {
-  color: white;
+  color: var(--clr-primary-1);
   padding: 1rem;
-  margin-top: 2rem;
 }
 .contact-info .contact-form:hover {
   box-shadow: var(--dark-shadow);
@@ -1215,13 +1219,8 @@ Contact Page
 }
 
 @media screen and (min-width: 1200px) {
-  .contact-page {
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr;
-    padding: 5rem 2rem;
-  }
-  .contact-info {
-    margin-top: 0;
+  .contact-container {
+    display: flex;
   }
 }
 

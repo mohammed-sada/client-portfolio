@@ -1,11 +1,30 @@
 import { Link } from "gatsby"
-import React from "react"
+import React, { useEffect, useState } from "react"
 import { FaAlignRight } from "react-icons/fa"
 import PageLinks from "../constants/links"
 
 const Navbar = ({ toggleSidebar, style }) => {
+  const [navBackground, setNavBackground] = useState("navTransparent")
+  const navRef = React.useRef()
+
+  navRef.current = navBackground
+  useEffect(() => {
+    const handleScroll = () => {
+      const show = window.scrollY > 310
+      if (show) {
+        setNavBackground("navSolid")
+      } else {
+        setNavBackground("navTransparent")
+      }
+    }
+    document.addEventListener("scroll", handleScroll)
+    return () => {
+      document.removeEventListener("scroll", handleScroll)
+    }
+  }, [])
+
   return (
-    <nav className={`navbar ${style}`}>
+    <nav className={`navbar ${style} ${navRef.current}`}>
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">

@@ -13,13 +13,16 @@ const resumePage = () => {
         <center>
           <SEO title="Resume" description="webdev resume" />
           <small className="buttons resume-links">
-            <a className="social-link" href="https://tdhopper.com/">
+            <a className="social-link" href="">
               <FaLinkedin />
             </a>
-            <a className="social-link" href="https://tdhopper.com/tdhopper">
+            <a className="social-link" href="">
               <FaGithub />
             </a>
           </small>
+          <Link to="/resumePdf">
+            <button className="btn center-btn">printable version</button>
+          </Link>
           <br />
         </center>
         <h1 id="tim-hopper">Abhishek Yadav</h1>
@@ -280,10 +283,7 @@ const resumePage = () => {
             Gurugram, India
           </p>
         </blockquote>
-        <Link
-          to="/resumePdf"
-          href="https://resume.tdhopper.com/tim-hopper-resume.pdf"
-        >
+        <Link to="/resumePdf">
           <button className="btn center-btn">printable version</button>
         </Link>
       </div>

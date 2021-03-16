@@ -38,7 +38,7 @@ const resumePage = () => {
           <a href="https://polarcus.com/" rel="noreferrer" target="_blank">
             Polarcus
           </a>{" "}
-          | <em>Dec 2019 – present</em> <br />
+          | Dec 2019 – present <br />
           Senior QC Geophysicist / Data Scientist <em></em>
         </h4>
         <ul>
@@ -95,7 +95,7 @@ const resumePage = () => {
           <a href="http://www.polarcus.com/" rel="noreferrer" target="_blank">
             Polarcus
           </a>{" "}
-          | <em>Jan 2015 – Dec 2019</em> <br />
+          | Jan 2015 – Dec 2019<br />
           QC Geophysicist / Data Scientist<em></em>
         </h4>
         <ul>

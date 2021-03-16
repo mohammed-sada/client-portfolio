@@ -31,13 +31,13 @@ export default [
     id: 4,
     icon: <FcStatistics className="service-icon" />,
     title: "Business Intelligence and Strategy",
-    text: `improving back-end data sources for increased accuracy and simplicity, building tailored analytics solutions, managing dashboards, reporting to stakeholders, recognizing best practices in reporting and analysis: data integrity, test design, analysis, validation, and documentation.`,
+    text: `Improving back-end data sources for increased accuracy and simplicity, building tailored analytics solutions, managing dashboards, reporting to stakeholders, recognizing best practices in reporting and analysis: data integrity, test design, analysis, validation, and documentation.`,
   },
   {
     id: 5,
     icon: <GrDeploy className="service-icon" />,
     title: "Operations-Related Data Analytics",
-    text: `leveraging the tools and data provided by the other members of the data science team in order to find opportunities of improvement within the operations of the business.`,
+    text: `Leveraging the tools and data provided by the other members of the data science team in order to find opportunities of improvement within the operations of the business.`,
   },
   {
     id: 6,

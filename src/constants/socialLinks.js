@@ -5,18 +5,18 @@ const data = [
   {
     id: 1,
     icon: <FaMedium className="social-icon"></FaMedium>,
-    url: "https://www.twitter.com",
+    url: "https://medium.com/@abhishake.yadav",
   },
   {
     id: 2,
     icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    url: "https://www.twitter.com",
+    url: "https://www.linkedin.com/in/abhishake-yadav-074408209/",
   },
 
   {
     id: 5,
     icon: <FaGithub className="social-icon"></FaGithub>,
-    url: "https://www.twitter.com",
+    url: "https://github.com/pydev2018",
   },
 ]
 const links = data.map(link => {

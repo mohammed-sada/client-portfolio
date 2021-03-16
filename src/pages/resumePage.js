@@ -18,16 +18,16 @@ const resumePage = () => {
             </Link>
           </button>
           <small className="buttons resume-links">
-            <a className="social-link" href="www.google.com">
+            <a className="social-link" href="https://www.linkedin.com/in/abhishake-yadav-074408209/">
               <FaLinkedin />
             </a>
-            <a className="social-link" href="www.google.com">
+            <a className="social-link" href="https://github.com/pydev2018">
               <FaGithub />
             </a>
           </small>
           <br />
         </center>
-        <h1 id="tim-hopper">Abhishek Yadav</h1>
+        <h1 id="tim-hopper">Abhishake Yadav</h1>
         <hr />
         <blockquote>
           <p>💻 Experienced machine learning engineer / Geophysicist / Data scientist  </p>

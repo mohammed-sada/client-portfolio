@@ -27,7 +27,7 @@ const resumePage = () => {
           </small>
           <br />
         </center>
-        <h2 id="tim-hopper">Abhishek Yadav</h2>
+        <h1 id="tim-hopper">Abhishek Yadav</h1>
         <hr />
         <blockquote>
           <p>💻 Experienced machine learning engineer / Geophysicist / Data scientist  </p>
@@ -219,7 +219,7 @@ const resumePage = () => {
             <p>Interesting blogs on various topics </p>
             <p>
               <a
-                href="https://github.com/python/cpython/commits?author=tdhopper"
+                href="https://yadavabhi.com/"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -227,7 +227,7 @@ const resumePage = () => {
               </a>{" "}
               ·{" "}
               <a
-                href="https://datamicroscopes.github.io/"
+                href="https://yadavabhi.com/"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -235,7 +235,7 @@ const resumePage = () => {
               </a>{" "}
               ·{" "}
               <a
-                href="https://github.com/parsely/streamparse/commits?author=tdhopper"
+                href="https://yadavabhi.com/"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -243,7 +243,7 @@ const resumePage = () => {
               </a>{" "}
               ·{" "}
               <a
-                href="https://github.com/conda/conda/commits?author=tdhopper"
+                href="https://yadavabhi.com/"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -251,7 +251,7 @@ const resumePage = () => {
               </a>{" "}
               ·{" "}
               <a
-                href="https://github.com/ariddell/lda/commits?author=tdhopper"
+                href="https://yadavabhi.com/"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -259,7 +259,7 @@ const resumePage = () => {
               </a>{" "}
               ·{" "}
               <a
-                href="https://github.com/pandas-dev/pandas/commits?author=tdhopper"
+                href="https://yadavabhi.com/"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -273,13 +273,13 @@ const resumePage = () => {
         </h2>
         <ul>
           <li>
-            <a href="https://pythonplot.com/" rel="noreferrer" target="_blank">
+            <a href="https://yadavabhi.com/" rel="noreferrer" target="_blank">
               proj1
             </a>
             : Description
           </li>
           <li>
-            <a href="https://dp.tdhopper.com/" rel="noreferrer" target="_blank">
+            <a href="https://yadavabhi.com/" rel="noreferrer" target="_blank">
               proj2
             </a>
             : Description 
@@ -288,11 +288,11 @@ const resumePage = () => {
         <hr />
         <blockquote>
           <p>
-            <a href="https://tdhopper.com/" rel="noreferrer" target="_blank">
+            <a href="https://yadavabhi.com/" rel="noreferrer" target="_blank">
               yadavabhi.com
             </a>{" "}
             •{" "}
-            <a href="mailto:tdhopper@gmail.com" class="email">
+            <a href="mailto:abhishake.yadav@outlook.com" class="email">
               abhishake.yadav@outlook.com
             </a>{" "}
             (+91) 8708995972

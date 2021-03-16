@@ -27,39 +27,21 @@ const resumePage = () => {
           </small>
           <br />
         </center>
-        <h1 id="tim-hopper">Abhishek Yadav</h1>
+        <h2 id="tim-hopper">Abhishek Yadav</h2>
         <hr />
         <blockquote>
-          <p>💻 Experienced machine learning engineer / Geophysicist</p>
+          <p>💻 Experienced machine learning engineer / Geophysicist / Data scientist  </p>
         </blockquote>
         <hr />
         <h2 id="experience">Experience</h2>
         <h4 id="dtn-remote-data-science-architect-august-2020-present">
-          <a href="https://dtn.com/" rel="noreferrer" target="_blank">
+          <a href="https://polarcus.com/" rel="noreferrer" target="_blank">
             Polarcus
           </a>{" "}
           | <em>Dec 2019 – present</em> <br />
           Senior QC Geophysicist / Data Scientist <em></em>
         </h4>
         <ul>
-          <li>
-            Acting as a main stakeholder in strategic planning, leveraging
-            analytics to provide insights to key decision-makers, enabling
-            informed planning at a project, operational, and strategic level.
-          </li>
-          <li>
-            Automating key processes, delivering a tangible increase in
-            efficiency.
-          </li>
-          <li>
-            Designing, developing, and deploying a broad range of data analytics
-            web apps, significantly enhancing operational capabilities.
-          </li>
-          <li>
-            Gathering functional requirements from stakeholders throughout the
-            organization to define deliverables and ensure cloud solution
-            delivered proposed benefits.
-          </li>
           <li>
             Pioneered an outlier detection system by utilizing machine learning
             algorithms, facilitating the identification of anomalous recording
@@ -72,12 +54,45 @@ const resumePage = () => {
             efficiency.
           </li>
           <li>
+            Created ETL pipeline to extract features from proprietary seismic
+            data in SEG-D format using python.
+          </li>
+          <li>
+            Creating FMEAs, RACI Charts, Control Charts, Process Maps, SIPOCs, Fish Bone Diagrams 
+            for more than 30 existing procedures.
+          </li>
+          <li>
+            Designing, developing, and deploying a broad range of data analytics
+            web apps, significantly enhancing operational capabilities.
+          </li>
+          <li>
+            Gathering functional requirements from stakeholders throughout the
+            organization to define deliverables and ensure cloud solution
+            delivered proposed benefits.
+          </li>
+          <li>
+            Proposed a method to facilitate the radio transfer of data to multiple 
+            locations in offshore operations simultaneously in real time which assisted in 
+            decision making and quick response and feedback from the client. Saving more than 200 
+            thousand dollars through rapid identification and mitigation of problems and 
+            streamlined communication.
+          </li>
+          <li>
+            Acting as a main stakeholder in strategic planning, leveraging
+            analytics to provide insights to key decision-makers, enabling
+            informed planning at a project, operational, and strategic level.
+          </li>
+          <li>
+            Automating key processes, delivering a tangible increase in
+            efficiency.
+          </li>
+          <li>
             Strategize and lead development of infrastructure for big data
             usability and accessibility
           </li>
         </ul>
         <h4 id="blackberry-cylance-remote-senior-data-scientist-nov-2017-may-2020">
-          <a href="http://www.cylance.com/" rel="noreferrer" target="_blank">
+          <a href="http://www.polarcus.com/" rel="noreferrer" target="_blank">
             Polarcus
           </a>{" "}
           | <em>Jan 2015 – Dec 2019</em> <br />
@@ -85,25 +100,26 @@ const resumePage = () => {
         </h4>
         <ul>
           <li>
-            Lead development of data lake and feature store using serverless AWS
-            infrastructure
+            Performed wavelet analysis for hyperparameter optimization of filters to 
+            be applied to data on multiple projects
           </li>
           <li>
-            Developed and maintained Python packages for data ingestion,
-            cleaning, and standardization
+            Created a 3d seismic data volume visualization and slicing tool using python.
           </li>
           <li>
-            Guided data science team in best practices for Python development
-            and software testing
+            Designed and implemented data cleaning , processing modelling workflows utilizing
+             various statistical and signal processing techniques like 
+            fourier analysis, median filtering , kalman filters, deconvolution , trace data velocity correction 
+            , stacking and data migration.
           </li>
           <li>
-            Researched machine learning techniques for dynamic detection of
-            malware
+            Deployed scalable compute on AWS using docker and kubernetes to perform extraction of different seismic attributes like sweetness, 
+            dip , chaos on large seismic datasets leveraging the use of distributed computing using dask.
           </li>
         </ul>
         <h4 id="distil-networks-remote-data-scientist-oct-2015-nov-2017">
           <a
-            href="http://www.distilnetworks.com/"
+            href="http://www.iongeo.com/"
             rel="noreferrer"
             target="_blank"
           >
@@ -114,28 +130,28 @@ const resumePage = () => {
         </h4>
         <ul>
           <li>
-            Researched and developed machine learning techniques for detection
-            of malicious web bots
+            Designed, implemented, monitored and optimized various data quality control and processing 
+            workflows to monitor and assess the quality of large data volumes in both real time and offline.
           </li>
           <li>
-            Lead research for validation of JavaScript-based client
-            fingerprinting technique
+            Used python to perform Statistical Data analysis of different types of spatio temporal data, 
+            time series, logs and textual data.
           </li>
           <li>
-            Constructed hierarchical Bayesian models for analysis of internet
-            user behavior
+            Used python to create project specific / client specific data processing / QC and visualization workflows.
           </li>
           <li>
-            Primary developer of real-time identification platform for malicious
-            web bots on Apache Storm
+            Wrote high quality technical reports for internal and external stakeholders which were peer-reviewed by 
+            scientific support teams.
           </li>
           <li>
-            Developed Python-based, internal tools for fast querying of data
-            warehouse
+            Assist with training and development of junior staff and contractors by conducting inhouse training sessions.
           </li>
           <li>
-            Introduced team to best practices in Python development and data
-            analysis
+            Assist with process and procedures creation, review and modification.
+          </li>
+          <li>
+            Assist in rigging and derigging of on-board data centers.
           </li>
         </ul>
         <h2 className="heading2" id="education">
@@ -151,8 +167,8 @@ const resumePage = () => {
             </p>
             <p>
               <em>
-                Key Courses: Graph Data Mining, Machine Learning, Bayesian
-                Networks, Linear Programming, Statistics, Computational Biology
+              <strong>Key Courses: </strong>Calculus, Linear Algebra,  Bioinformatics
+                Database programming, Statistics, Computational Biology
               </em>
             </p>
           </dd>
@@ -166,19 +182,20 @@ const resumePage = () => {
           <dd>
             <p>
               I have an experience with a breadth of tools for machine learning,
-              software development, and backend engineering.
+              deep learning , data exploration and visualization.
             </p>
             <ul>
               <li>
-                <strong>Programming Languages (high proficiency):</strong>{" "}
-                Python
+                <strong>Programming Languages:</strong>{" "}
+                Python, Javascript, SQL
               </li>
               <li>
-                <strong>Programming Languages (some proficiency):</strong> C++,
-                Go, C#, Mathematica, R, SQL, Java, Javascript
+                <strong>Deep learning tools:</strong> Tensorflow,
+                PyTorch
+               
               </li>
               <li>
-                <strong>Machine Learning Tools:</strong> Scikit-Learn, PyTorch,
+                <strong>Machine Learning Tools:</strong> Scikit-Learn, Azure ML,
                 MLFlow
               </li>
               <li>
@@ -206,7 +223,7 @@ const resumePage = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                cpython
+                blog1
               </a>{" "}
               ·{" "}
               <a
@@ -214,7 +231,7 @@ const resumePage = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                datamicroscopes
+                blog2
               </a>{" "}
               ·{" "}
               <a
@@ -222,7 +239,7 @@ const resumePage = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                Streamparse
+                blog3
               </a>{" "}
               ·{" "}
               <a
@@ -230,7 +247,7 @@ const resumePage = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                Conda
+                blog4
               </a>{" "}
               ·{" "}
               <a
@@ -238,7 +255,7 @@ const resumePage = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                lda
+                blog5
               </a>{" "}
               ·{" "}
               <a
@@ -246,7 +263,7 @@ const resumePage = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                Pandas
+                blog6
               </a>
             </p>
           </dd>
@@ -257,17 +274,15 @@ const resumePage = () => {
         <ul>
           <li>
             <a href="https://pythonplot.com/" rel="noreferrer" target="_blank">
-              pythonplot.com
+              proj1
             </a>
-            : A Rosetta Stone of Python plotting libraries for exploratory data
-            analysis
+            : Description
           </li>
           <li>
             <a href="https://dp.tdhopper.com/" rel="noreferrer" target="_blank">
-              Notes on Dirichlet Processes
+              proj2
             </a>
-            : Derivations, code, and notes on Dirichlet processes for
-            nonparametric Bayesian methods
+            : Description 
           </li>
         </ul>
         <hr />
@@ -278,7 +293,7 @@ const resumePage = () => {
             </a>{" "}
             •{" "}
             <a href="mailto:tdhopper@gmail.com" class="email">
-              abhishake88@gmail.com
+              abhishake.yadav@outlook.com
             </a>{" "}
             (+91) 8708995972
             <br />

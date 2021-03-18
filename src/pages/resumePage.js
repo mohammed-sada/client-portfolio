@@ -12,16 +12,26 @@ const resumePage = () => {
       <div className="resumePage">
         <center>
           <SEO title="Resume" description="webdev resume" />
-          <button className="btn center-btn print-btn-above">
-            <Link className="white-color" to="/resumePdf">
+          <Link className="white-color" to="/resumePdf">
+            <button className="btn center-btn print-btn-above">
               printable version
-            </Link>
-          </button>
+            </button>
+          </Link>
           <small className="buttons resume-links">
-            <a className="social-link" href="https://www.linkedin.com/in/abhishake-yadav-074408209/">
+            <a
+              className="social-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/abhishake-yadav-074408209/"
+            >
               <FaLinkedin />
             </a>
-            <a className="social-link" href="https://github.com/pydev2018">
+            <a
+              className="social-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/pydev2018"
+            >
               <FaGithub />
             </a>
           </small>
@@ -30,7 +40,10 @@ const resumePage = () => {
         <h1 id="tim-hopper">Abhishake Yadav</h1>
         <hr />
         <blockquote>
-          <p>💻 Experienced machine learning engineer / Geophysicist / Data scientist  </p>
+          <p>
+            💻 Experienced machine learning engineer / Geophysicist / Data
+            scientist{" "}
+          </p>
         </blockquote>
         <hr />
         <h2 id="experience">Experience</h2>
@@ -58,8 +71,8 @@ const resumePage = () => {
             data in SEG-D format using python.
           </li>
           <li>
-            Creating FMEAs, RACI Charts, Control Charts, Process Maps, SIPOCs, Fish Bone Diagrams 
-            for more than 30 existing procedures.
+            Creating FMEAs, RACI Charts, Control Charts, Process Maps, SIPOCs,
+            Fish Bone Diagrams for more than 30 existing procedures.
           </li>
           <li>
             Designing, developing, and deploying a broad range of data analytics
@@ -71,10 +84,11 @@ const resumePage = () => {
             delivered proposed benefits.
           </li>
           <li>
-            Proposed a method to facilitate the radio transfer of data to multiple 
-            locations in offshore operations simultaneously in real time which assisted in 
-            decision making and quick response and feedback from the client. Saving more than 200 
-            thousand dollars through rapid identification and mitigation of problems and 
+            Proposed a method to facilitate the radio transfer of data to
+            multiple locations in offshore operations simultaneously in real
+            time which assisted in decision making and quick response and
+            feedback from the client. Saving more than 200 thousand dollars
+            through rapid identification and mitigation of problems and
             streamlined communication.
           </li>
           <li>
@@ -95,34 +109,35 @@ const resumePage = () => {
           <a href="http://www.polarcus.com/" rel="noreferrer" target="_blank">
             Polarcus
           </a>{" "}
-          | Jan 2015 – Dec 2019<br />
+          | Jan 2015 – Dec 2019
+          <br />
           QC Geophysicist / Data Scientist<em></em>
         </h4>
         <ul>
           <li>
-            Performed wavelet analysis for hyperparameter optimization of filters to 
-            be applied to data on multiple projects
+            Performed wavelet analysis for hyperparameter optimization of
+            filters to be applied to data on multiple projects
           </li>
           <li>
-            Created a 3d seismic data volume visualization and slicing tool using python.
+            Created a 3d seismic data volume visualization and slicing tool
+            using python.
           </li>
           <li>
-            Designed and implemented data cleaning , processing modelling workflows utilizing
-             various statistical and signal processing techniques like 
-            fourier analysis, median filtering , kalman filters, deconvolution , trace data velocity correction 
-            , stacking and data migration.
+            Designed and implemented data cleaning , processing modelling
+            workflows utilizing various statistical and signal processing
+            techniques like fourier analysis, median filtering , kalman filters,
+            deconvolution , trace data velocity correction , stacking and data
+            migration.
           </li>
           <li>
-            Deployed scalable compute on AWS using docker and kubernetes to perform extraction of different seismic attributes like sweetness, 
-            dip , chaos on large seismic datasets leveraging the use of distributed computing using dask.
+            Deployed scalable compute on AWS using docker and kubernetes to
+            perform extraction of different seismic attributes like sweetness,
+            dip , chaos on large seismic datasets leveraging the use of
+            distributed computing using dask.
           </li>
         </ul>
         <h4 id="distil-networks-remote-data-scientist-oct-2015-nov-2017">
-          <a
-            href="http://www.iongeo.com/"
-            rel="noreferrer"
-            target="_blank"
-          >
+          <a href="http://www.iongeo.com/" rel="noreferrer" target="_blank">
             ION GX Technology
           </a>{" "}
           | Jan 2012 – Dec 2014 <br />
@@ -130,29 +145,31 @@ const resumePage = () => {
         </h4>
         <ul>
           <li>
-            Designed, implemented, monitored and optimized various data quality control and processing 
-            workflows to monitor and assess the quality of large data volumes in both real time and offline.
+            Designed, implemented, monitored and optimized various data quality
+            control and processing workflows to monitor and assess the quality
+            of large data volumes in both real time and offline.
           </li>
           <li>
-            Used python to perform Statistical Data analysis of different types of spatio temporal data, 
-            time series, logs and textual data.
+            Used python to perform Statistical Data analysis of different types
+            of spatio temporal data, time series, logs and textual data.
           </li>
           <li>
-            Used python to create project specific / client specific data processing / QC and visualization workflows.
+            Used python to create project specific / client specific data
+            processing / QC and visualization workflows.
           </li>
           <li>
-            Wrote high quality technical reports for internal and external stakeholders which were peer-reviewed by 
-            scientific support teams.
+            Wrote high quality technical reports for internal and external
+            stakeholders which were peer-reviewed by scientific support teams.
           </li>
           <li>
-            Assist with training and development of junior staff and contractors by conducting inhouse training sessions.
+            Assist with training and development of junior staff and contractors
+            by conducting inhouse training sessions.
           </li>
           <li>
-            Assist with process and procedures creation, review and modification.
+            Assist with process and procedures creation, review and
+            modification.
           </li>
-          <li>
-            Assist in rigging and derigging of on-board data centers.
-          </li>
+          <li>Assist in rigging and derigging of on-board data centers.</li>
         </ul>
         <h2 className="heading2" id="education">
           Education
@@ -167,8 +184,9 @@ const resumePage = () => {
             </p>
             <p>
               <em>
-              <strong>Key Courses: </strong>Calculus, Linear Algebra,  Bioinformatics
-                Database programming, Statistics, Computational Biology
+                <strong>Key Courses: </strong>Calculus, Linear Algebra,
+                Bioinformatics Database programming, Statistics, Computational
+                Biology
               </em>
             </p>
           </dd>
@@ -186,13 +204,10 @@ const resumePage = () => {
             </p>
             <ul>
               <li>
-                <strong>Programming Languages:</strong>{" "}
-                Python, Javascript, SQL
+                <strong>Programming Languages:</strong> Python, Javascript, SQL
               </li>
               <li>
-                <strong>Deep learning tools:</strong> Tensorflow,
-                PyTorch
-               
+                <strong>Deep learning tools:</strong> Tensorflow, PyTorch
               </li>
               <li>
                 <strong>Machine Learning Tools:</strong> Scikit-Learn, Azure ML,
@@ -218,51 +233,27 @@ const resumePage = () => {
           <dd>
             <p>Interesting blogs on various topics </p>
             <p>
-              <a
-                href="https://yadavabhi.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
+              <a href="https://yadavabhi.com/" rel="noreferrer" target="_blank">
                 blog1
               </a>{" "}
               ·{" "}
-              <a
-                href="https://yadavabhi.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
+              <a href="https://yadavabhi.com/" rel="noreferrer" target="_blank">
                 blog2
               </a>{" "}
               ·{" "}
-              <a
-                href="https://yadavabhi.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
+              <a href="https://yadavabhi.com/" rel="noreferrer" target="_blank">
                 blog3
               </a>{" "}
               ·{" "}
-              <a
-                href="https://yadavabhi.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
+              <a href="https://yadavabhi.com/" rel="noreferrer" target="_blank">
                 blog4
               </a>{" "}
               ·{" "}
-              <a
-                href="https://yadavabhi.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
+              <a href="https://yadavabhi.com/" rel="noreferrer" target="_blank">
                 blog5
               </a>{" "}
               ·{" "}
-              <a
-                href="https://yadavabhi.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
+              <a href="https://yadavabhi.com/" rel="noreferrer" target="_blank">
                 blog6
               </a>
             </p>
@@ -282,7 +273,7 @@ const resumePage = () => {
             <a href="https://yadavabhi.com/" rel="noreferrer" target="_blank">
               proj2
             </a>
-            : Description 
+            : Description
           </li>
         </ul>
         <hr />
@@ -300,11 +291,11 @@ const resumePage = () => {
             Gurugram, India
           </p>
         </blockquote>
-        <button className="btn center-btn print-btn">
-          <Link className="print-btn-below" to="/resumePdf">
+        <Link className="print-btn-below" to="/resumePdf">
+          <button className="btn center-btn print-btn">
             printable version
-          </Link>
-        </button>
+          </button>
+        </Link>
       </div>
     </Layout>
   )

@@ -85,7 +85,13 @@ const Contact = () => {
             <hr />
             <div>
               <MdEmail className="contact-icon" />
+<<<<<<< HEAD
               <h4>abhishake.yadav@outlook.com</h4>
+=======
+              <h4 style={{ textTransform: "none" }}>
+                abhishake.yadav@outlook.com
+              </h4>
+>>>>>>> 0ab66e113449c2def5d7044d5c88ba47bde1532b
             </div>
           </article>
         </article>

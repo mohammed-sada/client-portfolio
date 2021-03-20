@@ -10,7 +10,7 @@ const data = [
   {
     id: 2,
     icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    url: "https://www.linkedin.com/in/abhishake-yadav-074408209/",
+    url: "https://www.linkedin.com/in/abhishake-yadav-0/",
   },
 
   {

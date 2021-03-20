@@ -18,16 +18,10 @@ const resumePage = () => {
             </button>
           </Link>
           <small className="buttons resume-links">
-<<<<<<< HEAD
-            <a className="social-link" href="https://www.linkedin.com/in/abhishake-yadav-0/">
-=======
             <a
               className="social-link"
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.linkedin.com/in/abhishake-yadav-074408209/"
+              href="https://www.linkedin.com/in/abhishake-yadav-0/"
             >
->>>>>>> 0ab66e113449c2def5d7044d5c88ba47bde1532b
               <FaLinkedin />
             </a>
             <a
@@ -113,14 +107,9 @@ const resumePage = () => {
           <a href="http://www.polarcus.com/" rel="noreferrer" target="_blank">
             Polarcus
           </a>{" "}
-<<<<<<< HEAD
-          | Jan 2015 – Dec 2019<br />
-          Geophysicist / Data Scientist<em></em>
-=======
           | Jan 2015 – Dec 2019
           <br />
-          QC Geophysicist / Data Scientist<em></em>
->>>>>>> 0ab66e113449c2def5d7044d5c88ba47bde1532b
+          Geophysicist / Data Scientist<em></em>
         </h4>
         <ul>
           <li>
@@ -224,8 +213,8 @@ const resumePage = () => {
               </li>
               <li>
                 <strong>Data Processing Tools:</strong> Amazon Web Services
-                (Batch, Lambda, ECS, S3, SQS),
-                Spark/Pyspark, Pandas, Scikit-learn, Hive, Dask
+                (Batch, Lambda, ECS, S3, SQS), Spark/Pyspark, Pandas,
+                Scikit-learn, Hive, Dask
               </li>
               <li>
                 <strong>Infrastructure and Configuration Tools</strong>:

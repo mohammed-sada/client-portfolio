@@ -18,7 +18,7 @@ const resumePage = () => {
             </Link>
           </button>
           <small className="buttons resume-links">
-            <a className="social-link" href="https://www.linkedin.com/in/abhishake-yadav-074408209/">
+            <a className="social-link" href="https://www.linkedin.com/in/abhishake-yadav-0/">
               <FaLinkedin />
             </a>
             <a className="social-link" href="https://github.com/pydev2018">
@@ -27,7 +27,7 @@ const resumePage = () => {
           </small>
           <br />
         </center>
-        <h1 id="tim-hopper">Abhishake Yadav</h1>
+        <h1 id="abhi">Abhishake Yadav</h1>
         <hr />
         <blockquote>
           <p>💻 Experienced machine learning engineer / Geophysicist / Data scientist  </p>
@@ -39,7 +39,7 @@ const resumePage = () => {
             Polarcus
           </a>{" "}
           | Dec 2019 – present <br />
-          Senior QC Geophysicist / Data Scientist <em></em>
+          Senior Geophysicist / Data Scientist <em></em>
         </h4>
         <ul>
           <li>
@@ -96,7 +96,7 @@ const resumePage = () => {
             Polarcus
           </a>{" "}
           | Jan 2015 – Dec 2019<br />
-          QC Geophysicist / Data Scientist<em></em>
+          Geophysicist / Data Scientist<em></em>
         </h4>
         <ul>
           <li>
@@ -126,7 +126,7 @@ const resumePage = () => {
             ION GX Technology
           </a>{" "}
           | Jan 2012 – Dec 2014 <br />
-          QC Geophysicist / Data Scientist<em></em>
+          Geophysicist <em></em>
         </h4>
         <ul>
           <li>
@@ -200,8 +200,8 @@ const resumePage = () => {
               </li>
               <li>
                 <strong>Data Processing Tools:</strong> Amazon Web Services
-                (Batch, Lambda, ECS, S3, SQS), Apache Storm/streamparse, Apache
-                Spark/Pyspark, Pandas, Scikit-learn, Impala, Hive, Dask
+                (Batch, Lambda, ECS, S3, SQS),
+                Spark/Pyspark, Pandas, Scikit-learn, Hive, Dask
               </li>
               <li>
                 <strong>Infrastructure and Configuration Tools</strong>:

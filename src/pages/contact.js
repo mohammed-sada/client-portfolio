@@ -65,7 +65,7 @@ const Contact = () => {
           <article className="contact-info">
             <div>
               <BsFillPersonFill className="contact-icon" />
-              <h3>Abhishek Yadav</h3>
+              <h3>Abhishake Yadav</h3>
             </div>
 
             <hr />
@@ -85,7 +85,7 @@ const Contact = () => {
             <hr />
             <div>
               <MdEmail className="contact-icon" />
-              <h4>abhishake88@gmail.com</h4>
+              <h4>abhishake.yadav@outlook.com</h4>
             </div>
           </article>
         </article>

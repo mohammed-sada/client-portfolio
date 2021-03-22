@@ -139,7 +139,7 @@ const resumePage = () => {
             ION GX Technology
           </a>{" "}
           | Jan 2012 – Dec 2014 <br />
-          Geophysicist <em></em>
+          Geophysicist / Data Scientist<em></em>
         </h4>
         <ul>
           <li>

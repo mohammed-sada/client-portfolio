@@ -7,6 +7,7 @@ import Projects from "../components/Projects"
 import Blogs from "../components/Blogs"
 import Jobs from "../components/Jobs"
 import SEO from "../components/SEO"
+import Summary from "../components/Summary"
 export default ({ data }) => {
   const {
     allContentfulProject: { nodes: projects },
@@ -17,6 +18,7 @@ export default ({ data }) => {
     <Layout style="navbar-home">
       <SEO title="Home" description="this is our home page" />
       <Hero />
+      <Summary />
       <Services />
       <Jobs />
       <Projects projects={projects} title="featured projects" showLink />

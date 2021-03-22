@@ -663,6 +663,22 @@ Services
 
 /*
 =============== 
+summary
+===============
+*/
+
+.summary {
+  background-color: var(--clr-primary-1);
+  color: var(--clr-primary-10);
+}
+
+.summary-center {
+  width: 80vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+/*
+=============== 
 Jobs
 ===============
 */
@@ -830,7 +846,7 @@ Projects
 }
 
 .project-desc {
-  word-spacing: 15px;
+  word-spacing: 7px;
   color: var(--clr-grey-3);
 }
 

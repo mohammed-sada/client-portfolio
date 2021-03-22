@@ -8,6 +8,7 @@ import Blogs from "../components/Blogs"
 import Jobs from "../components/Jobs"
 import SEO from "../components/SEO"
 import Summary from "../components/Summary"
+
 export default ({ data }) => {
   const {
     allContentfulProject: { nodes: projects },

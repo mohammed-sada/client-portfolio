@@ -213,13 +213,8 @@ const resumePage = () => {
               </li>
               <li>
                 <strong>Data Processing Tools:</strong> Amazon Web Services
-<<<<<<< HEAD
                 (Batch, Lambda, ECS, S3, SQS),
                 Spark/Pyspark, Pandas, Scikit-learn, Dask
-=======
-                (Batch, Lambda, ECS, S3, SQS), Spark/Pyspark, Pandas,
-                Scikit-learn, Hive, Dask
->>>>>>> b61c15b2288c769005b76ba06b11877cf48ab1d5
               </li>
               <li>
                 <strong>Infrastructure and Configuration Tools</strong>:

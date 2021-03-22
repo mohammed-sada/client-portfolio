@@ -139,7 +139,7 @@ const resumePage = () => {
             ION GX Technology
           </a>{" "}
           | Jan 2012 – Dec 2014 <br />
-          Geophysicist <em></em>
+          Geophysicist / Data Scientist<em></em>
         </h4>
         <ul>
           <li>
@@ -183,7 +183,7 @@ const resumePage = () => {
             <p>
               <em>
                 <strong>Key Courses: </strong>Calculus, Linear Algebra,
-                Bioinformatics Database programming, Statistics, Computational
+                Bioinformatics, Database programming, Statistics, Computational
                 Biology
               </em>
             </p>
@@ -213,12 +213,12 @@ const resumePage = () => {
               </li>
               <li>
                 <strong>Data Processing Tools:</strong> Amazon Web Services
-                (Batch, Lambda, ECS, S3, SQS), Spark/Pyspark, Pandas,
-                Scikit-learn, Hive, Dask
+                (Batch, Lambda, ECS, S3, SQS),
+                Spark/Pyspark, Pandas, Scikit-learn, Dask
               </li>
               <li>
                 <strong>Infrastructure and Configuration Tools</strong>:
-                Terraform, Ansible, Saltstack
+                Terraform
               </li>
               <li>
                 <strong>Data Stores:</strong> Postgres, Elasticsearch,
@@ -229,7 +229,7 @@ const resumePage = () => {
           <dt>Blogs</dt>
           <br />
           <dd>
-            <p>Interesting blogs on various topics </p>
+            <p>Interesting apps on various topics </p>
             <p>
               <a href="https://yadavabhi.com/" rel="noreferrer" target="_blank">
                 blog1

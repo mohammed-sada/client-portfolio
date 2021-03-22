@@ -28,10 +28,10 @@ const Project = ({
           })}
         </div>
         <div className="project-links">
-          <a href={github}>
+          <a href={github} target="_blank" rel="noreferrer">
             <FaGithubSquare className="project-icon" />
           </a>
-          <a className="btn" href={url}>
+          <a className="btn" href={url} target="_blank" rel="noreferrer">
             see live
           </a>
         </div>

@@ -677,6 +677,12 @@ summary
   margin: 0 auto;
   max-width: var(--max-width);
 }
+.summary-center p {
+  word-spacing: var(--spacing);
+  text-align: center;
+  font-size: 16px;
+  color: var(--clr-primary-1);
+}
 /*
 =============== 
 Jobs

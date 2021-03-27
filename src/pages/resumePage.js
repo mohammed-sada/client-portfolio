@@ -39,7 +39,7 @@ const resumePage = () => {
         <hr />
         <blockquote>
           <p>
-            💻 Experienced machine learning engineer / Geophysicist / Data
+            💻 Experienced machine learning , AI engineer / Geophysicist / Data
             scientist{" "}
           </p>
         </blockquote>
@@ -54,53 +54,47 @@ const resumePage = () => {
         </h4>
         <ul>
           <li>
-            Pioneered an outlier detection system by utilizing machine learning
-            algorithms, facilitating the identification of anomalous recording
-            sensors with a 90% accuracy rate, simultaneously reducing time to
-            identify faulty sensors by 70%. (Data volume 1 TB/Day from more than
-            5000 sensors)
+            <strong>Cloud migration:</strong> Defining data and analytics standards and SOPs 
+            for the organization while serving as Subject Matter Expert on multiple 
+            data resources. Playing a key role in conceptualizing and implementing the
+            organization’s cloud data solution, leading architecture planning alongside 
+            the development team. Part of the team to implement data processing in the cloud, 
+            reducing OPEX by $2M+ every year
           </li>
           <li>
-            Automating key processes, delivering a tangible increase in
-            efficiency.
+          <strong>Project management:</strong> Conducted more than 30 user interviews to gather and flesh out 
+            functional requirements from stakeholders throughout the organization to define deliverables 
+            and ensure that the design of the cloud solution is robust and within defined scope. 
           </li>
           <li>
-            Created ETL pipeline to extract features from proprietary seismic
-            data in SEG-D format using python.
+          <strong>Process modelling (BPMN 2.0):</strong> Modelled and transformed more than 40 business procedures, mapping data, 
+            assessing, and identifying performance gaps and deficiencies, to develop corrective measures and 
+            accelerate improvement.
           </li>
           <li>
-            Creating FMEAs, RACI Charts, Control Charts, Process Maps, SIPOCs,
-            Fish Bone Diagrams for more than 30 existing procedures.
+          <strong>Data mining:</strong> Gathering and synthesizing terabyte-sized volumes of historical data, employing a broad 
+            range of analytic tools to outline trends and better understand equipment failures, downtime, and 
+            revenue impact. 
           </li>
           <li>
-            Designing, developing, and deploying a broad range of data analytics
-            web apps, significantly enhancing operational capabilities.
+          <strong>Fault detection:</strong> Using and testing different machine learning algorithms and developing a fault 
+            identification system with a potential to significantly reduce technical downtime.
           </li>
           <li>
-            Gathering functional requirements from stakeholders throughout the
-            organization to define deliverables and ensure cloud solution
-            delivered proposed benefits.
+          <strong>Web app development:</strong> Designing, developing, and deploying a broad range of data analytics web apps.
           </li>
           <li>
-            Proposed a method to facilitate the radio transfer of data to
-            multiple locations in offshore operations simultaneously in real
-            time which assisted in decision making and quick response and
-            feedback from the client. Saving more than 200 thousand dollars
-            through rapid identification and mitigation of problems and
-            streamlined communication.
+          <strong>Machine learning:</strong> Pioneering an outlier detection system by utilizing machine learning algorithms, 
+            facilitating the identification of anomalous recording sensors with a 90% accuracy rate, simultaneously 
+            reducing time to identify faulty sensors by 70%.
           </li>
           <li>
-            Acting as a main stakeholder in strategic planning, leveraging
-            analytics to provide insights to key decision-makers, enabling
-            informed planning at a project, operational, and strategic level.
+          <strong>Deep learning:</strong> Using deep learning methods and architectures to test their applications is data 
+            interpolation and denoising.
           </li>
           <li>
-            Automating key processes, delivering a tangible increase in
-            efficiency.
-          </li>
-          <li>
-            Strategize and lead development of infrastructure for big data
-            usability and accessibility
+          <strong>Data transmission:</strong> Introducing a novel method to transfer data to multiple offshore locations 
+            simultaneously, streamlining communication, and delivering $200K+ in savings.
           </li>
         </ul>
         <h4 id="blackberry-cylance-remote-senior-data-scientist-nov-2017-may-2020">
@@ -113,25 +107,37 @@ const resumePage = () => {
         </h4>
         <ul>
           <li>
-            Performed wavelet analysis for hyperparameter optimization of
-            filters to be applied to data on multiple projects
+          <strong>Data analysis:</strong> Provided complex data analysis support to large-scale 
+            clients such as Exxon, BP, and Shell, facilitating multiple international 
+            projects with a cumulated value of $2B+.
           </li>
           <li>
-            Created a 3d seismic data volume visualization and slicing tool
-            using python.
+          <strong>Business intelligence:</strong> Translated data into actionable intelligence, 
+            producing detailed reports for key client stakeholders.
           </li>
           <li>
-            Designed and implemented data cleaning , processing modelling
-            workflows utilizing various statistical and signal processing
-            techniques like fourier analysis, median filtering , kalman filters,
-            deconvolution , trace data velocity correction , stacking and data
-            migration.
+          <strong>Data pipelines:</strong> Architected and introduced novel data ingestion, 
+            cleaning, processing, transformation, modeling, and validation workflows, 
+            boosting data quality, and simplifying analysis.
           </li>
           <li>
-            Deployed scalable compute on AWS using docker and kubernetes to
+          <strong>Distributed Computing:</strong> Deployed scalable compute on AWS using docker and kubernetes to
             perform extraction of different seismic attributes like sweetness,
             dip , chaos on large seismic datasets leveraging the use of
             distributed computing using dask.
+          </li>
+          <li>
+          <strong>Training:</strong> Coordinated educational workshops and seminars for 
+            real-time data QC and fault detection with cross-departmental stakeholders. 
+          </li>
+          <li>
+          <strong>Data management:</strong> Troubleshot, serviced, and maintained the on-board data center
+            (400 teraflops, 500 terabytes) while monitoring the cloud environment to identify 
+            and resolve performance issues promptly.
+          </li>
+          <li>
+          <strong>Automation:</strong> Spearheaded automation solutions, unlocking tangible operational benefits 
+            in terms of cost, scalability, availability, and quality. 
           </li>
         </ul>
         <h4 id="distil-networks-remote-data-scientist-oct-2015-nov-2017">
@@ -143,34 +149,28 @@ const resumePage = () => {
         </h4>
         <ul>
           <li>
-            Designed, implemented, monitored and optimized various data quality
+          <strong>Workflow:</strong> Designed, implemented, monitored and optimized various data quality
             control and processing workflows to monitor and assess the quality
             of large data volumes in both real time and offline.
           </li>
           <li>
-            Used python to perform Statistical Data analysis of different types
-            of spatio temporal data, time series, logs and textual data.
+          <strong>Data quality:</strong> Designed, implemented, optimized, and monitored various data quality 
+            control and processing solutions to assess the quality of more than 2000-3000 TB 
+            of combined data volume, on projects with a cumulated value of $1B+.
           </li>
           <li>
-            Used python to create project specific / client specific data
-            processing / QC and visualization workflows.
+          <strong>Data visualization:</strong> Identified complex patterns and trends, both real time and offline, 
+            producing visualizations, reports, findings, and implications to decision-makers potentially 
+            saving cumulated value of $300 K+.
           </li>
           <li>
-            Wrote high quality technical reports for internal and external
-            stakeholders which were peer-reviewed by scientific support teams.
+          <strong>Technical reporting:</strong> Produced tailored data analysis, processing, quality, and visualizations 
+            depending on individual project particularities creating more than 50 technical reports vetted 
+            by scientific experts.
           </li>
-          <li>
-            Assist with training and development of junior staff and contractors
-            by conducting inhouse training sessions.
-          </li>
-          <li>
-            Assist with process and procedures creation, review and
-            modification.
-          </li>
-          <li>Assist in rigging and derigging of on-board data centers.</li>
         </ul>
         <h2 className="heading2" id="education">
-          Education
+          Education, Licenses and certifications
         </h2>
         <dl>
           <dt>2005-2009</dt>
@@ -186,6 +186,10 @@ const resumePage = () => {
                 Bioinformatics, Database programming, Statistics, Computational
                 Biology
               </em>
+            </p>
+            <p>
+              <strong>Certifications </strong>{" "}
+              Microsoft Azure fundamentals , BPMN foundation and practitioner
             </p>
           </dd>
         </dl>
@@ -226,33 +230,33 @@ const resumePage = () => {
               </li>
             </ul>
           </dd>
-          <dt>Blogs</dt>
+          <dt>Blogs / Apps</dt>
           <br />
           <dd>
-            <p>Interesting apps on various topics </p>
+            <p>Interesting apps and blogs on various topics </p>
             <p>
-              <a href="https://yadavabhi.com/" rel="noreferrer" target="_blank">
-                blog1
+              <a href="https://yadavabhi.com/projects/" rel="noreferrer" target="_blank">
+                Skin Segmentation
               </a>{" "}
               ·{" "}
-              <a href="https://yadavabhi.com/" rel="noreferrer" target="_blank">
-                blog2
+              <a href="https://yadavabhi.com/projects/" rel="noreferrer" target="_blank">
+                Stock Forecasting
               </a>{" "}
               ·{" "}
-              <a href="https://yadavabhi.com/" rel="noreferrer" target="_blank">
-                blog3
+              <a href="https://yadavabhi.com/blog/" rel="noreferrer" target="_blank">
+                RestAPI
               </a>{" "}
               ·{" "}
-              <a href="https://yadavabhi.com/" rel="noreferrer" target="_blank">
-                blog4
+              <a href="https://yadavabhi.com/projects/" rel="noreferrer" target="_blank">
+                Color compression
               </a>{" "}
               ·{" "}
-              <a href="https://yadavabhi.com/" rel="noreferrer" target="_blank">
-                blog5
+              <a href="https://yadavabhi.com/projects/" rel="noreferrer" target="_blank">
+                Object detection 
               </a>{" "}
               ·{" "}
-              <a href="https://yadavabhi.com/" rel="noreferrer" target="_blank">
-                blog6
+              <a href="https://yadavabhi.com/projects/" rel="noreferrer" target="_blank">
+                Face recognition 
               </a>
             </p>
           </dd>
@@ -262,16 +266,16 @@ const resumePage = () => {
         </h2>
         <ul>
           <li>
-            <a href="https://yadavabhi.com/" rel="noreferrer" target="_blank">
-              proj1
+            <a href="https://yadavabhi.com/blog/" rel="noreferrer" target="_blank">
+              Real time data quality control of seismic source 
             </a>
-            : Description
+            : Extract multiple statistaical attributes from seismic air gun data in realtime and offline to perform quality control.
           </li>
           <li>
-            <a href="https://yadavabhi.com/" rel="noreferrer" target="_blank">
-              proj2
+            <a href="https://yadavabhi.com/blog/" rel="noreferrer" target="_blank">
+              Outlier detection on multichannel seismic data recording array
             </a>
-            : Description
+            : Quickly assess and identify anomalous recording channels from more than 6000-8000 recording sensors.  
           </li>
         </ul>
         <hr />

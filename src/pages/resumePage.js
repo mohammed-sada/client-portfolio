@@ -54,39 +54,33 @@ const resumePage = () => {
         </h4>
         <ul>
           <li>
-            <strong>Cloud migration:</strong> Defining data and analytics standards and SOPs 
-            for the organization while serving as Subject Matter Expert on multiple 
-            data resources. Playing a key role in conceptualizing and implementing the
-            organization’s cloud data solution, leading architecture planning alongside 
-            the development team. Part of the team to implement data processing in the cloud, 
-            reducing OPEX by $2M+ every year
+            <strong>Cloud migration:</strong> Performed cost and benefit analysis of compute demand and 
+            utilization trends over five years to create predictive resource consumption model to right 
+            size and move the data processing infrastructure from offshore (High fixed OPEX model) to a 
+            hybrid pay as you go OPEX model in the cloud, reducing OPEX by $1.8M+ every year.
           </li>
           <li>
-          <strong>Project management:</strong> Conducted more than 30 user interviews to gather and flesh out 
-            functional requirements from stakeholders throughout the organization to define deliverables 
-            and ensure that the design of the cloud solution is robust and within defined scope. 
+          <strong>Business analysis:</strong> Conducted more than 33 user interviews to gather functional 
+            requirements, assumptions, and constraints from stakeholders throughout the organization to define 
+            data mining goals and success criteria and created the overall feature backlog in JIRA to ensure that 
+            the design of the cloud solution is aligned with the business objectives. 
           </li>
           <li>
-          <strong>Process modelling (BPMN 2.0):</strong> Modelled and transformed more than 40 business procedures, mapping data, 
-            assessing, and identifying performance gaps and deficiencies, to develop corrective measures and 
-            accelerate improvement.
+          <strong>Process modelling (BPMN 2.0):</strong> Modelled and transformed more than 42 business procedures, mapping data, 
+            assessing, and identifying performance gaps and deficiencies, to develop corrective measures and accelerate improvement.
           </li>
           <li>
-          <strong>Data mining:</strong> Gathering and synthesizing terabyte-sized volumes of historical data, employing a broad 
-            range of analytic tools to outline trends and better understand equipment failures, downtime, and 
-            revenue impact. 
+          <strong>Data mining:</strong> Delivered more than 10 data collection, description, quality, and exploratory 
+            analysis reports by gathering and integrating terabyte-sized volumes of siloed historical data, employing a 
+            broad range of analytic tools to outline trends and better understand quality issues, equipment failures, downtime, and revenue impact. 
           </li>
           <li>
-          <strong>Fault detection:</strong> Using and testing different machine learning algorithms and developing a fault 
-            identification system with a potential to significantly reduce technical downtime.
+          <strong>Machine learning:</strong> Modelling, evaluation, and deployment of different machine learning models for 
+            developing a fault identification system facilitating the identification of anomalous recording sensors with an 94% 
+            accuracy rate exhibiting potential to mitigate technical downtime.
           </li>
           <li>
-          <strong>Web app development:</strong> Designing, developing, and deploying a broad range of data analytics web apps.
-          </li>
-          <li>
-          <strong>Machine learning:</strong> Pioneering an outlier detection system by utilizing machine learning algorithms, 
-            facilitating the identification of anomalous recording sensors with a 90% accuracy rate, simultaneously 
-            reducing time to identify faulty sensors by 70%.
+          <strong>ML Web app development:</strong> Designing, developing, and deploying a broad range of data analytics web apps and dashboards.
           </li>
           <li>
           <strong>Deep learning:</strong> Using deep learning methods and architectures to test their applications is data 
@@ -107,9 +101,8 @@ const resumePage = () => {
         </h4>
         <ul>
           <li>
-          <strong>Data analysis:</strong> Provided complex data analysis support to large-scale 
-            clients such as Exxon, BP, and Shell, facilitating multiple international 
-            projects with a cumulated value of $2B+.
+          <strong>Data analysis:</strong> Performed complex data analysis on large-scale international projects with a 
+            cumulated value of $500M+ for clients such as ExxonMobil, Total, and Shell.
           </li>
           <li>
           <strong>Business intelligence:</strong> Translated data into actionable intelligence, 
@@ -127,17 +120,19 @@ const resumePage = () => {
             distributed computing using dask.
           </li>
           <li>
-          <strong>Training:</strong> Coordinated educational workshops and seminars for 
-            real-time data QC and fault detection with cross-departmental stakeholders. 
+          <strong>Mentoring:</strong> Organized training workshops and seminars for real-time data quality 
+            assurance and fault detection with cross-departmental stakeholders to ensure that data quality 
+            guidelines and procedures are well understood.
           </li>
           <li>
-          <strong>Data management:</strong> Troubleshot, serviced, and maintained the on-board data center
+          <strong>Infrastructure management:</strong> Troubleshot, serviced, and maintained the on-board data center
             (400 teraflops, 500 terabytes) while monitoring the cloud environment to identify 
             and resolve performance issues promptly.
           </li>
           <li>
-          <strong>Automation:</strong> Spearheaded automation solutions, unlocking tangible operational benefits 
-            in terms of cost, scalability, availability, and quality. 
+          <strong>Automation:</strong> Developed, deployed, and tested automation solutions for data management 
+            and quality assurance throughout the project lifecycle, achieving a 15% reduction in errors and improving 
+            data quality substantially. 
           </li>
         </ul>
         <h4 id="distil-networks-remote-data-scientist-oct-2015-nov-2017">
@@ -149,19 +144,13 @@ const resumePage = () => {
         </h4>
         <ul>
           <li>
-          <strong>Workflow:</strong> Designed, implemented, monitored and optimized various data quality
-            control and processing workflows to monitor and assess the quality
-            of large data volumes in both real time and offline.
+          <strong>Data processing:</strong> Designed, implemented, optimized, and monitored various data quality control 
+            and processing solutions to assess the quality of more than 2000-3000 TB of combined data volume, on projects with 
+            a cumulated value of $100M+.
           </li>
           <li>
-          <strong>Data quality:</strong> Designed, implemented, optimized, and monitored various data quality 
-            control and processing solutions to assess the quality of more than 2000-3000 TB 
-            of combined data volume, on projects with a cumulated value of $1B+.
-          </li>
-          <li>
-          <strong>Data visualization:</strong> Identified complex patterns and trends, both real time and offline, 
-            producing visualizations, reports, findings, and implications to decision-makers potentially 
-            saving cumulated value of $300 K+.
+          <strong>Data analysis:</strong> Identified complex patterns and trends, both real time and offline, producing visualizations, 
+            reports, findings, and implications to decision-makers potentially saving cumulated value of $300 K+.
           </li>
           <li>
           <strong>Technical reporting:</strong> Produced tailored data analysis, processing, quality, and visualizations 

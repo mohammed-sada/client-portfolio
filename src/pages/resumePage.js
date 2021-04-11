@@ -162,7 +162,7 @@ const resumePage = () => {
           Education, Licenses and certifications
         </h2>
         <dl>
-          <dt>2005-2009</dt>
+          <dt>2010</dt>
           <br />
           <dd>
             <p>
